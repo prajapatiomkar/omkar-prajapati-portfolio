@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+/* .navbar--logo {} */
+
+.navbar--links {
+    text-decoration: none;
+}
+
+.navbar--links ul {
+    display: flex;
+
+    list-style: none;
+}
+
+.navbar--links ul li {
+    margin: 0 1rem;
+}
+
+.navbar--links ul li a {
+    text-decoration: none;
+    color: black;
+}
